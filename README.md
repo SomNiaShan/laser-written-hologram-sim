@@ -1,4 +1,4 @@
-# GS-star-hologram
+# laser-written-hologram-sim
 
 MATLAB simulations of binary Fourier holograms, designed with the Gerchberg–Saxton (GS) algorithm, that still show their far-field image after being cut to the shape of a picture.
 
