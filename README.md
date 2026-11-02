@@ -24,10 +24,15 @@ Each script compares three cases: ① a hologram over the whole square, ② holo
 - `starry_night_v2.png`: three-colour near-field design (blue sky, black, yellow) for the two laser-writing scripts.
 - `great_wave.png`: far-field target; its brightness is used, with the dark background set to zero.
 
+## Scan-hologram run (2026-11-02)
+
+`out_starry_wave_5mm_scan_bothholo/` is the 5 × 5 mm laser-writing run: Starry Night near field, Great Wave far field, hologram in both yellow and black (sky left clear). The current stage file is `writing_plan_v2_starry_wave_5mm_scan_bothholo_zblack0p5.csv`: yellow preset 14 at z = 0, black preset 1 at z = +0.5 mm, power 40%, 0.03 mm/s. `writing_plan_v2_starry_wave_5mm_scan_bothholo.csv` in that folder is the earlier black focus at z = +1.5 mm, kept for reference. Figures, site maps, and `gs_starry_wave_scan.py` / `make_plan.py` are described in the folder README.
+
 ## Requirements
 
-- MATLAB only; no toolbox is needed (checked with `matlab.codetools.requiredFilesAndProducts`). Tested with MATLAB R2026a.
+- MATLAB only for the `.m` scripts; no toolbox is needed (checked with `matlab.codetools.requiredFilesAndProducts`). Tested with MATLAB R2026a.
 - Each script loads its pictures from its own folder, so it can be run from anywhere. The two scanned-line scripts first run `gs_starry_night_great_wave_hologram.m`, so keep them in the same folder (or on the MATLAB path).
+- `out_starry_wave_5mm_scan_bothholo/gs_starry_wave_scan.py` needs NumPy, SciPy, Pillow, and Matplotlib. `make_plan.py` needs NumPy.
 
 ## Notes
 
