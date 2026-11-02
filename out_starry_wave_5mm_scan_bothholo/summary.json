@@ -1,0 +1,32 @@
+{
+ "sites": "1000x1000",
+ "size_mm": 5,
+ "pitch_um": 5.0,
+ "dot_um": 5.0,
+ "line_width_um": 5.0,
+ "wavelength_nm": 405,
+ "carrier_period_sites": 3.3333333333333335,
+ "carrier_period_um": 16.666666666666668,
+ "carrier_angle_deg": 1.3924245005588696,
+ "picture_halfspan_deg": 0.8818168590718038,
+ "gs_iters": 200,
+ "seed": 1,
+ "fft_N": 2000,
+ "n_dot_sites": 268241,
+ "n_aperture_sites": 537194,
+ "n_lines": 55986,
+ "median_line_sites": 4.0,
+ "single_site_lines": 3760,
+ "max_line_sites": 43,
+ "total_on_length_mm": 1341.205,
+ "dots": {
+  "efficiency": 0.027292770515599113,
+  "corr": 0.67966532428644,
+  "corr_5x5": 0.90770265519402
+ },
+ "lines": {
+  "efficiency": 0.0395407170330788,
+  "corr": 0.6885820348362551,
+  "corr_5x5": 0.9089207657511349
+ }
+}
